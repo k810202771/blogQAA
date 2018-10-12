@@ -1,0 +1,44 @@
+<style>
+    page{
+        font-size: 0;
+        text-align: center;
+        height: 120px;
+        line-height: 120px;
+    }
+    .logo{
+        margin-right: 12px;
+    }
+    .query{
+        height: 18px;
+        width: 390px;
+        padding: 8px 10px 6px;
+        margin: 0;
+        border-style: solid;
+        border-color: #faab00;
+        border-width: 1px 0 1px 1px;
+        border-top-left-radius: 90px;
+        border-bottom-left-radius: 90px;
+    }
+    .searchBtn{
+        height: 34px;
+        line-height: 0;
+        padding: 8px 14px 6px;
+        margin: 0;
+        outline: 0;
+        color: #4d3c26;
+        border: solid 1px #faab00;
+        border-width: 1px 1px 1px 0;
+        background-color: #ffe37f;
+        border-top-right-radius: 90px;
+        border-bottom-right-radius: 90px;
+    }
+    .public{
+        display: inline-block;
+        vertical-align: middle;
+    }
+</style>
+<template>
+    <img src="images/logo.png" alt="" class="logo public">
+    <input type="text" class="query public" maxlength="50">
+    <input type="button" value="搜索" class="searchBtn public">
+</template>
